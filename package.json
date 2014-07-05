@@ -1,0 +1,28 @@
+{
+  "name": "aster-changed",
+  "version": "0.0.1",
+  "description": "Rebuild only changed files in aster.",
+  "author": "Ingvar Stepanyan <me@rreverser.com> (https://github.com/RReverser)",
+  "repository": "asterjs/aster-changed",
+  "license": "MIT",
+  "keywords": [
+    "aster-plugin",
+    "ast",
+    "javascript",
+    "transform",
+    "modify",
+    "changed",
+    "watch"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "rx": "^2.2.27"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
